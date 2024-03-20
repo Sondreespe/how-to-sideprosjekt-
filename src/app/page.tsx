@@ -1,17 +1,20 @@
+import { ProjectList } from "./components/project-list";
+
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center h-full gap-10 p-24">
-      <h1 className="text-3xl font-medium">
-        Velkommen til {'"'}How to sideprosjekt{'"'}
-      </h1>
+    <div className="min-h-screen bg-gray-900 text-gray-300 px-4">
+    <div className="max-w-screen-sm mx-auto text-lg flex flex-col gap-6 py-24">
+      <h2 className="text-2xl text-gray-100 mb-4">Dette er siden min</h2>
+      <p className="text-gray-100 mb-4">average chat-user</p>
 
-      <p>
-        Om du vil ha oppgaver, les{" "}
-        <span className="bg-gray-200 font-mono py-1 px-2 rounded-md">
-          README.md
-        </span>
-        .
-      </p>
-    </main>
+      
+    </div>
+  </div>
+   
+     
+    
+  
+    
   );
 }
